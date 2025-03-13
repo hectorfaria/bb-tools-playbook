@@ -1,0 +1,7 @@
+---
+# defaults file for customize-browser
+chrome_policy_dir: "/etc/opt/chrome/policies/managed"
+extensions:
+      - "eimadpbcbfnmbkopoojfekhnkhdbieeh"  # dark-reader
+      - "gcknhkkoolaabfmlnjonogaaifnjlfnpb" # foxy-proxy
+      - "gppongmhjkpfnbhagpmjfkannfbllamg" #wapplyzer

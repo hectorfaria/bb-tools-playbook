@@ -1,0 +1,6 @@
+- name: "Custom configuration for BB"
+  hosts: localhost
+  connection: local
+  become: true
+  roles:
+    - role: "roles/customize-browser"

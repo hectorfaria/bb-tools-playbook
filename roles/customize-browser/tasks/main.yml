@@ -1,0 +1,3 @@
+---
+- name: Include Google tasks dynamically
+  include_tasks: "google.yml"

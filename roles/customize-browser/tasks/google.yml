@@ -1,0 +1,12 @@
+---
+- name: Ensure Chrome policy directory exists
+  file:
+    path: "{{ chrome_policy_dir }}"
+    state: directory
+    mode: "0755"
+
+- name: Deploy Chrome policy for extensions
+  template:
+    src: "templates/chrome-extensions.j2"
+    dest: "{{ chrome_policy_dir }}/chrome-extensions.json"
+    mode: "0644"
