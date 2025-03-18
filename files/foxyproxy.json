@@ -1,0 +1,32 @@
+{
+    "mode": "disable",
+    "sync": false,
+    "autoBackup": false,
+    "passthrough": "",
+    "theme": "",
+    "container": {},
+    "commands": {
+      "quickAdd": "",
+      "setProxy": "",
+      "setTabProxy": ""
+    },
+    "data": [
+      {
+        "active": true,
+        "cc": "",
+        "city": "",
+        "color": "#7fffd4",
+        "exclude": [],
+        "hostname": "127.0.0.1",
+        "include": [],
+        "pac": "",
+        "pacString": "",
+        "password": "",
+        "port": "8080",
+        "proxyDNS": true,
+        "title": "BurpSuite",
+        "type": "http",
+        "username": ""
+      }
+    ]
+  }
